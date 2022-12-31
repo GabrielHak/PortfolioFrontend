@@ -5,7 +5,7 @@ body{
   height: 100vh;
   padding: 0%;
   margin: 0%;
-  background-color: rgb(189, 189, 189);
+  background-color: beige;
   font-size: 20px;
 }
 
@@ -76,10 +76,7 @@ body{
 /*** General Styles ***********************************************************/
 
 .subtitle{
-  font-size: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  
 }
 
 .editable-card{
@@ -93,7 +90,7 @@ body{
   margin: 0px 20px;
 }
 
-.info-ed{
+.info-card{
   display: flex;
   flex-direction: row;
   align-items: center;
