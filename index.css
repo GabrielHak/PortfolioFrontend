@@ -6,6 +6,7 @@ body{
   padding: 0%;
   margin: 0%;
   background-color: rgb(189, 189, 189);
+  font-size: 20px;
 }
 
 .main-container{
@@ -13,7 +14,6 @@ body{
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border: 1px solid red;
 }
 
 .card{
@@ -21,9 +21,8 @@ body{
   border: 1px solid black;
   border-radius: 40px;
   overflow: hidden;
-  margin-bottom: 3px;
+  margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid yellow;
 }
 
 /******************************************************************************/
@@ -49,7 +48,6 @@ body{
   padding-left: 10px;
   position: relative;
   top: -75px;
-  border: 1px solid orange;
   /* Modfificar margenes? para que no este el espacio que no ocupa */
 }
 
@@ -59,9 +57,51 @@ body{
 
 .list-edit{
   list-style: none;
-  border: 1px solid turquoise;
   padding: 0px;
   width: fit-content;
+}
+
+.but-list{
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+/******************************************************************************/
+
+/*** Education ****************************************************************/
+
+
+/******************************************************************************/
+
+/*** General Styles ***********************************************************/
+
+.subtitle{
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.editable-card{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.icon{
+  width: auto;
+  height: 100px;
+  margin: 0px 20px;
+}
+
+.info-ed{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.grid-item-l{
+  justify-self: end;
+  align-self: center;
 }
 
 /******************************************************************************/
