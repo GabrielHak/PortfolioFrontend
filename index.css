@@ -104,10 +104,6 @@ body{
 
 /*** General Styles ***********************************************************/
 
-.subtitle{
-  
-}
-
 .editable-card{
   display: grid;
   grid-template-columns: 50% 50%;
@@ -128,6 +124,36 @@ body{
 .grid-item-l{
   justify-self: end;
   align-self: center;
+}
+
+.edit-b{
+  all: unset;
+  cursor: pointer;
+  background-image: url('./resources/edit-text.png'); 
+  background-size: cover; 
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+
+.delete-b{
+  all: unset;
+  cursor: pointer;
+  background-image: url('./resources/delete.png'); 
+  background-size: cover; 
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+
+.more-b{
+  all: unset;
+  cursor: pointer;
+  background-image: url('./resources/plus.png'); 
+  background-size: cover; 
+  background-position: center;
+  width: 20px;
+  height: 20px;
 }
 
 /******************************************************************************/
