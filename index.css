@@ -1,7 +1,7 @@
 /*** Main *********************************************************************/
 
 body{
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
   padding: 0%;
   margin: 0%;
@@ -11,9 +11,9 @@ body{
 
 .main-container{
   max-width: 100vw;
+  /* display: block; */
   display: flex;
   flex-direction: column;
-  padding: 10px;
 }
 
 .card{
@@ -23,6 +23,111 @@ body{
   overflow: hidden;
   margin-bottom: 20px;
   padding: 10px;
+  margin: 10px;
+}
+/******************************************************************************/
+
+/*** General Styles ***********************************************************/
+
+.editable-card{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.icon{
+  width: auto;
+  height: 100px;
+  margin: 0px 20px;
+}
+
+.info-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.grid-item-l{
+  justify-self: end;
+  align-self: center;
+}
+
+.b{
+  all: unset;
+  cursor: pointer;
+  background-size: cover; 
+  background-position: center;
+  width: 25px;
+  height: 25px;
+}
+
+.edit-b{
+  background-image: url('./resources/edit-text.png');
+}
+
+.delete-b{
+  background-image: url('./resources/delete.png');
+}
+
+.more-b{
+  background-image: url('./resources/plus.png');
+}
+
+.b:hover{
+  width: 30px;
+  height: 30px;
+}
+
+/******************************************************************************/
+
+/*** Header *******************************************************************/
+
+.header{
+  position: sticky;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  justify-content: space-between;
+  z-index: 5;
+  padding: 0px 0px 0px 20px; /* top rigth bot left */
+  top: 0;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.c{
+  all: unset;
+  cursor: pointer;
+  background-size: cover; 
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.github-b{
+  background-image: url('./resources/github.png');
+}
+
+.linkedin-b{
+  background-image: url('./resources/linkedin.png');
+}
+
+#login{
+  color: green;
+  width: 100px;
+  border: 1px solid green;
+  text-align: center;
+}
+
+#login:hover{
+  background-color: green;
+  color: white;
 }
 
 /******************************************************************************/
@@ -98,58 +203,6 @@ body{
   border-radius: 10px;
   text-align: center;
   position: relative;
-}
-
-/******************************************************************************/
-
-/*** General Styles ***********************************************************/
-
-.editable-card{
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.icon{
-  width: auto;
-  height: 100px;
-  margin: 0px 20px;
-}
-
-.info-card{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.grid-item-l{
-  justify-self: end;
-  align-self: center;
-}
-
-.b{
-  all: unset;
-  cursor: pointer;
-  background-size: cover; 
-  background-position: center;
-  width: 25px;
-  height: 25px;
-}
-
-.edit-b{
-  background-image: url('./resources/edit-text.png');
-}
-
-.delete-b{
-  background-image: url('./resources/delete.png');
-}
-
-.more-b{
-  background-image: url('./resources/plus.png');
-}
-
-.b:hover{
-  width: 30px;
-  height: 30px;
 }
 
 /******************************************************************************/
