@@ -73,6 +73,35 @@ body{
 
 /******************************************************************************/
 
+/*** Skills *******************************************************************/
+
+.graph{
+  height: 20px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.res-prob{
+  height: 100%;
+  width: 70%;
+  background-color: green;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.dis-sis{
+  height: 100%;
+  width: 40%;
+  background-color: green;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+/******************************************************************************/
+
 /*** General Styles ***********************************************************/
 
 .subtitle{
